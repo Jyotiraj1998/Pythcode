@@ -13,7 +13,7 @@ data = pd.read_csv(r"C:\Users\shamaun\Desktop\Datasets\maintenance_data.csv")
 #data Analysis
 
 sns.countplot(data.team)
-
+plt.show()
 sns.countplot(data.team[data.broken==1])
 plt.show()
 
